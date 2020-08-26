@@ -1,0 +1,17 @@
+Package: com.CoreNion.DeviceInfo
+Architecture: iphoneos-arm
+Version: 0.9.1
+Section: Utilities
+Maintainer: CoreNion <coreinion@gmail.com>
+Depends: firmware (>= 12.0)
+Filename: ./debs/com.corenion.deviceinfo_iphone-arm_0.9.1.deb
+Size: 17387440
+MD5sum: 093123e78b1a136322761a669ed3a67a
+SHA1: e324012e84424688f4c4995ca10707dcf0ef3dda
+SHA256: 73ced0e661c5ad6b03497d907bbcd74cb46a9b0d853aec34ce651b9cc14c4f69
+SHA512: d9b9d87ab0517c68e992333dcfaeda638e51eb9f878aaa21e593d92738378b129e85599a8beaafb03ed70a32d6a4a0e553ec5f7100f9d4724f91ef035f89c1c5
+Homepage: https://corenion.github.io/
+Description: Show your device infomation.
+Name: DeviceInfo
+Author: CoreNion <coreinion@gmail.com>
+

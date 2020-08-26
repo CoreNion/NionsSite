@@ -1,0 +1,179 @@
+html {
+    min-height: 100%;
+}
+
+.InfoIcon {
+    width: 10%;
+    border-radius: 20px;
+    float: left;
+}
+
+body {
+    /* Firefox */
+    background: -moz-linear-gradient(top, #3d3d3d, #212121);
+    /* Chrome , Safari */
+    background: -webkit-linear-gradient(top, #3d3d3d, #212121);
+    /* IE11 */
+    background: linear-gradient(to bottom, #3d3d3d, #212121);
+    /* 代用 */
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Meiryo UI',sans-serif;
+}
+
+h1 {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+h1 span {
+    position: relative;
+    display: inline-block;
+    margin: 0 2.5em;
+    padding: 0 1em;
+    text-align: left;
+
+}
+
+h1 span::before,
+h1 span::after {
+    position: absolute;
+    top: 50%;
+    content: '';
+    width: 400%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+h1 span::before {
+    right: 100%;
+
+}
+
+h1 span::after {
+    left: 100%;
+}
+
+h2{
+    color: #00cbff
+}
+
+.downloadButton {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+}
+
+.DroidDownload {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #3fc742;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+    margin-left: 20px;
+}
+
+.DroidDownload:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+
+}
+
+.iOSDownload {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #000000;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+    margin-left: 10px;
+}
+
+.iOSDownload:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+
+}
+
+.AddCydia {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #bb7900;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+
+    margin-left: 20px;
+}
+
+.AddCydia:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+
+}
+
+.AddSileo {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #00f7ff;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.AddSileo:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+.macDownload {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #000a5f;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.macDownload:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-bottom: none;
+}
+
+.DeviceInfo {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #FFFFFF;
+    border-radius: 5px;
+
+}
+
+
+.DeviceInfo::after {
+        content: "";
+        clear: both;
+        display: block;
+}
