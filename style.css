@@ -18,6 +18,7 @@ body {
   /* 代用 */
   background-color: #000000;
   color: #FFFFFF;
+
   font-family: 'Yu Gothic UI','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Meiryo UI',sans-serif;
 }
 
@@ -106,7 +107,7 @@ h2{
   color: #FFF;
 }
 
-.entry {
+.Area {
   padding: 10px;
   margin-bottom: 30px;
   border: 1px dotted #FFFFFF;
@@ -114,7 +115,7 @@ h2{
 }
 
 
-.entry::after {
+.Area::after {
   content: "";
   clear: both;
   display: block;
