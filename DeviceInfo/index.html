@@ -28,10 +28,9 @@
 </head>
 
 <body>
-    <h1><span>DeviceInfo</span></h1>
-    <h2><img src="../DeviceInfo.png" alt="DeviceInfo"
-            style="width:67px;height:67px;vertical-align:middle;border-radius:10px;"><span
-            style="vertical-align:middle;"> DeviceInfo</span></h2>
+    <h1><img src="../DeviceInfo.png" alt="DeviceInfo"
+        style="width:67px;height:67px;vertical-align:middle;border-radius:10px;"><span
+        style="vertical-align:middle;"> <span style="color:cornsilk;">DeviceInfo</span></h1>
     <div style="padding-left: 10px;">
         <div>このアプリでは、デバイスの細かい情報を表示できます。</div>
         <div>最低要件:</div>
@@ -40,22 +39,30 @@
             <li>Android: Android 7.0以降</li>
             <li>macOS: macOS 10.12 Sierra以降</li>
         </ul>
-        <div>最終バージョン:0.9.1</div>
-        <div class="downloadButton">
-            <div style="padding: 10px 0px 10px 0px;"><a href="./0.9.1/DeviceInfo.ipa" class="iOSDownload">Download for ipa(iOS)</a></div>
-            <div style="padding: 10px 0px 10px 0px;"><a href="../repo/index.html" class="AddCydia">Download for Jailed iOS</a></div>
-            <div style="padding: 10px 0px 10px 0px;"><a href="./0.9.1/com.CoreNion.DeviceInfo.apk" class="DroidDownload">Download for Android</a></div>
-            <div style="padding: 10px 0px 10px 0px;"><a href="./0.9.1/DeviceInfo 0.9.1.dmg" class="macDownload">Download for macOS</a></div>
+        <div>最新バージョン:0.9.1</div>
+        <br>
+        <b>ダウンロード</b>
+        <br>
+        <span>実行したいOSを選択</span>
+        <select id="selectOS" onchange="setDownloadArea()">
+            <option selected>--OSを選択してください--</option>
+            <option value="iOS">iOS</option>
+            <option value="Android">Android</option>
+            <option value="macOS">macOS</option>
+            <option disabled value="Windows">Windows(Comming soon!!)</option>
+        </select>
+        <br> <br>
+        <div id="DownloadArea">
         </div>
-        <div>注意:macOS版は署名されていないため、開けない可能性があります。</div>
-        <div>その場合、システム環境設定を開き、セキリュティとプライバシーをクリックし、このまま開くを押してください。</div>
     </div>
     <p>
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="DeviceInfo - 誰でも簡単に端末の詳細情報が見れるアプリ！" data-url="https://corenion.github.io/DeviceInfo/index.html" data-hashtags="DeviceInfo" data-related="" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <a href="https://twitter.com/coreinion?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @coreinion</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <br>
-        <a href="../index.html">ホームへ戻る</a>
+        <a href="../index.html" style="color:moccasin">CoreNion&#39;s Page</a>
     </p>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
