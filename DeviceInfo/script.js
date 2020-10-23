@@ -25,13 +25,13 @@ function setDownloadArea() {
 function selectiOS() {
     guideElement.innerHTML = 'iOSは、基本はAltStoreを利用してインストールができます。\nまた、脱獄している場合は、<a href="../repo/index.html" style="color: red;">CoreNionのリポジトリを追加</a>し、インストールすることもできます。<br> <br>';
 
-    MainDownloadButton.setAttribute("href","altstore://install?url=https://corenion.github.io/DeviceInfo/0.9.1/DeviceInfo.ipa");
+    MainDownloadButton.setAttribute("href","altstore://install?url=https://corenion.github.io/DeviceInfo/0.9.2/DeviceInfo.ipa");
     MainDownloadButton.setAttribute("class","altDownload");
     MainDownloadButton.innerText = "install via altStore";
 
     
     const ipaDownloadButton = document.createElement("a");
-    ipaDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.1/DeviceInfo.ipa");
+    ipaDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.2/DeviceInfo.ipa");
     ipaDownloadButton.setAttribute("class","ipaDownload");
     ipaDownloadButton.innerText = "Downlaod ipa";
 
@@ -61,3 +61,21 @@ function selectMacOS() {
     downloadArea.appendChild(guideElement);
     downloadArea.appendChild(MainDownloadButton);   
 }
+
+/*
+var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    slidesPerView: 2,
+    spaceBetween: 10,
+    centeredSlides : true,
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    breakpoints: {
+      767: {
+        slidesPerView: 1,
+        spaceBetween: 0
+      }
+    }
+})
+*/
