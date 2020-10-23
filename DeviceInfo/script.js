@@ -43,7 +43,7 @@ function selectiOS() {
 function selectAndroid() {
     guideElement.innerText = "セキュリティの警告が出てインストール出来ない場合、設定で提供元不明なアプリのインストールを許可をしてください。\n\n";
 
-    MainDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.1/com.CoreNion.DeviceInfo.apk");
+    MainDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.2/DeviceInfo.apk");
     MainDownloadButton.setAttribute("class","DroidDownload");
     MainDownloadButton.innerText = "Download apk";
 
@@ -54,7 +54,7 @@ function selectAndroid() {
 function selectMacOS() {
     guideElement.innerText = "セキュリティの警告が出てDeviceInfoを開けない場合、FinderでDeviceInfoのあるフォルダー(標準ではアプリケーションフォルダー)にアクセスし、controlキーを押しながらDeviceinfoを開いてください。\n\n";
     
-    MainDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.1/DeviceInfo%200.9.1.dmg");
+    MainDownloadButton.setAttribute("href","https://corenion.github.io/DeviceInfo/0.9.2/DeviceInfo_mac.zip");
     MainDownloadButton.setAttribute("class","macDownload");
     MainDownloadButton.innerText = "Download";
 
