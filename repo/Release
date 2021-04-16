@@ -1,8 +1,0 @@
-Origin: CoreNion's repo
-Label: CoreNion
-Suite: stable
-Version: 1.0
-Codename: cnionrepo
-Architectures: iphoneos-arm
-Components: main
-Description: CoreNion's iOS Jailbreak Repository
